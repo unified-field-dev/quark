@@ -184,5 +184,5 @@ See [`profiling.md`](profiling.md) for quick command reference.
 |-----|------|
 | `cargo test` | Every push / PR |
 | `cargo doc --no-deps` | Every push / PR |
-| `cargo bench --bench runtime` | Optional CI job (reduced sample size) |
+| `cargo bench --bench runtime` (lookup subset only) | Every push / PR — full suite is manual (register_build OOMs on CI) |
 | Compile-scale 5000/10000 | Manual or scheduled only |
