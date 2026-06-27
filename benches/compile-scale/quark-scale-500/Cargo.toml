@@ -1,0 +1,17 @@
+[package]
+name = "quark-scale-500"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "quark_scale_500"
+path = "src/lib.rs"
+
+[[bin]]
+name = "quark-scale-500-bin"
+path = "src/bin/main.rs"
+
+[dependencies]
+quark = { path = "../../.." }
+inventory = "0.3"
